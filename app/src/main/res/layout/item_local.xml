@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:id="@+id/iv_header"
+        android:layout_margin="8dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_name"
+        android:textSize="14sp"
+        android:text="桥边姑娘"
+        android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:id="@+id/tv_desc"
+            android:text="舞蹈女神...."
+            android:textSize="12sp"
+            android:textColor="#DEDEDE"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
